@@ -1,0 +1,17 @@
+
+abrir git cmd-> consola de linux 
+dir->revisamos los archivos de la carpeta
+git clone .......
+git status->vemos el estado de los archivos, si se modificaron
+git add . ->actualizamos todo lo modificado en el branch (main)
+git commit -m "____texto____"-> guardamos la atualizacion con su nombre correspondiente de modificacion
+git push->subimos los cambios del repositorio local al repositorio remoto
+git branch->revisamos enque bash(rama) estamos 
+git checkout -b "bash(main)"->creamos nueva rama 
+git push --set-upstream origin prueba-> subimos la rama 
+git checkout prueba-> cambiamos de rama main a prueba  
+git pull-> cargamos los datos desde el repositorio remoto 
+git stash-> guardado local sin interferir en el remoto 
+git stash apply-> colocamos estos cambios guardados anteriormente
+git checkout .-> desacemos los cambios hechos 
+git log-> revismos los commit 
